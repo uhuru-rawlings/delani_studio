@@ -1,5 +1,6 @@
 *{
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 #home{
     background-image: url(assets/backgrounds/h_img.jpg);
@@ -19,8 +20,8 @@
     border-radius: 50%;
     font-size: 25px;
     font-weight: 400;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin:auto;
 }
 .paragraphs{
@@ -37,4 +38,23 @@
     position: absolute;
     bottom: 30px;
     left: 50%;
+}
+#about{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 40px 0px 40px 0px;
+}
+#services{
+    background-image: url(./assets/backgrounds/s_image.jpg);
+    height: 330px;
+    width: 100%;
+    text-align: center;
+}
+.service{
+    margin: 70px 0px;
+    color: #fff;
+}
+.service p{
+    font-size: 17px;
 }
