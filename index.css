@@ -85,3 +85,7 @@
     margin: 20px 130px 20px 130px;
     text-align: center;
 }
+#text1,#text2,#text3{
+    display: none;
+    font-weight: 550;
+}
