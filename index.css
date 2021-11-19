@@ -58,3 +58,30 @@
 .service p{
     font-size: 17px;
 }
+.images{
+    text-align: center;
+}
+#what_wedo{
+    text-align: center;
+    padding: 40px;
+}
+#what_wedo1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#col1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#portfolio{
+    margin: 20px 130px 20px 130px;
+    text-align: center;
+}
