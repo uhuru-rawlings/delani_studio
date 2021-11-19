@@ -1,1 +1,37 @@
-
+#home{
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 550px;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.delani{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    margin:auto;
+}
+.paragraphs{
+    margin: -25px 0px 0px -25px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.both{
+    font-size: 25px;
+    font-weight: 400;
+}
+#mouse{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
