@@ -39,11 +39,11 @@ $(document).ready(function(){
  $(document).ready(function(){
      $(".work").hover(function(){
        $(this).css("color","white");
-       $(".bg_change").css("background-color","rgba(0,0,0,0.5)");
+       $("#work").css("background-color","rgba(0,0,0,0.5)");
        $(this).css("border","2px solid #fff");
      },function(){
          $(this).css("color","transparent");
          $(this).css("border","none");
-         $(".bg_change").css("background-color","inherit");
+         $("#work").css("background-color","inherit");
      });
  });
