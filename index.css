@@ -75,11 +75,13 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 .col{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 #portfolio{
     margin: 20px 130px 20px 130px;
@@ -94,6 +96,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
+    flex-wrap: wrap;
 }
 input[type=text],input[type=email]{
     width: 300px;
@@ -150,42 +153,42 @@ input[type=submit]:hover{
     padding: 30px;
 }
 
-.work1{
+#work1{
     background-image:url(./assets/portfolio/work1.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work2{
+}#work2{
     background-image:url(./assets/portfolio/work2.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work3{
+}#work3{
     background-image:url(./assets/portfolio/work3.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work4{
+}#work4{
     background-image:url(./assets/portfolio/work4.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work5{
+}#work5{
     background-image:url(./assets/portfolio/work5.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work6{
+}#work6{
     background-image:url(./assets/portfolio/work6.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work7{
+}#work7{
     background-image:url(./assets/portfolio/work7.jpg);
     background-size: cover;
     width: 250px;
     height: 250px;
-}.work8{
+}#work8{
     background-image:url(./assets/portfolio/work8.jpg);
     background-size: cover;
     width: 250px;
@@ -200,4 +203,15 @@ input[type=submit]:hover{
     margin: 23px;
     font-weight: bold;
     font-size: 24px;
+}
+@media only screen and(max-width: 677px) {
+    textarea{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    #formcolls{
+        display: block;
+    }
 }
